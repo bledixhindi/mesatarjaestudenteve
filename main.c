@@ -38,7 +38,7 @@ int main()
             {
                 Sum=Sum + v[rows][colon];
             }
-        printf("Mesatrja e cdo sudenti eshte :  %0.2f \n", Sum/3 );
+        printf("Mesatrja e cdo sudenti eshte :  %0.2f \n", Sum/j );
 
     }
 
@@ -59,7 +59,7 @@ int main()
 					min=v[colon][rows];
 				}
             }
-        printf("Nota per cdo kuic :  %0.2f \n", (float)c/5);
+        printf("Nota per cdo kuic :  %0.2f \n", (float)c/i);
 
     }
              printf("Max eshte :  %d \n", max);
